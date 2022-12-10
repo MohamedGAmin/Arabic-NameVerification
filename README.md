@@ -66,5 +66,7 @@ Total params: 8,521,730
 Trainable params: 8,521,730
 Non-trainable params: 0
 _________________________________________________________________
+```
 
+The model was used two times, one time to classify if the name is real or fake and other time to classify the gender of the name to make sure that name is following the basic structure of the full name 
 
