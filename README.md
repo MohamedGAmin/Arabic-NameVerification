@@ -109,6 +109,7 @@ Final step was to containerize the final application into a docker image so it c
 ## How-To
 
 ### How to train
+To train the model use the below command, choose the number of epochs and choose between 'fake' or 'gender' mode to train the selected model
 ```bash
 !python train.py --epochs 20 --mode fake
 ```
