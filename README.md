@@ -6,7 +6,12 @@
 This is an Arabic name verification project where I used Character-Level LSTM for real and fake name classifcation. 
 
 The project consists of the following parts:
+
 1- Data Generation
+
 2- Core Model
+
 3- Inferance
+
 4- Containerization
+
