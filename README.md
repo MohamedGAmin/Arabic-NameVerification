@@ -9,7 +9,7 @@ The name given should be first, middle and last names written in arabic letters 
 
 The project consists of the following parts:
 
-1- Data Generation
+1- Data Generation[#part1]
 
 2- Core Model
 
@@ -17,6 +17,9 @@ The project consists of the following parts:
 
 4- Containerization
 
+5- How To
+
+#part1
 ## 1- Data Generation
 The raw data located `dataset/` which contains real arabic names for males and females. It was challanging to find much open source arabic names datasets. 
 
