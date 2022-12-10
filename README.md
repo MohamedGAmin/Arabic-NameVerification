@@ -18,5 +18,14 @@ The project consists of the following parts:
 ## 1- Data Generation
 The raw data located `./dataset` which contains real arabic names for males and females. It was challanging to find much open source arabic names datasets. 
 
-Some of the data was taken from this repo https://github.com/zakahmad/ArabicNameGenderFinder
+Some of the data was taken from this repository https://github.com/zakahmad/ArabicNameGenderFinder
+
+### Data preprocessing
+
+Three different ways were used to generate fake names out of the real names in the dataset located in `data_generation.py`
+1- Removing random letter
+2- Swap any random 2 letters with each other
+3- Repeat a random letter at a random position in the name.
+
+
 
