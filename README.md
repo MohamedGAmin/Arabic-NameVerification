@@ -40,8 +40,11 @@ The dataset after preprocessing that is used for training the model consists of:
 
 2- 1971 females and 1877 males real names
 
-Total of 3848 fake 3848 real names located in `generated_dataset/`
+Total of 3848 fake and 3848 real names located in `generated_dataset/`
 
+## 2- Core Model
+
+The model used was LSTM for character level and below is the architecture of the model
 
 
 
