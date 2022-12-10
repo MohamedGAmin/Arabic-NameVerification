@@ -105,3 +105,10 @@ Flask API was used to deploy the model on a simple web server. Using the saved m
 
 ## 4-Containerization
 Final step was to containerize the final application into a docker image so it can be tested anywhere. `docker-compose.yml` was used to build the docker image.
+
+## How-To
+
+### How to train
+```bash
+!python train.py --epochs 20 --mode fake
+```
