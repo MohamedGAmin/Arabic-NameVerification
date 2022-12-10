@@ -80,12 +80,20 @@ The metric used was the accuracy for both models as the data is balanced between
 
 Youden's J statistic was used  to obtain the optimal probability threshold and this method gives equal weights to both false positives and false negatives.
 
-`J=Sensitivity + Specificity - 1`
+`J = Sensitivity + Specificity - 1`
                   
-1- Real and Fake name classifcation
+1- Real and Fake name Classifcation
   
   Training accuracy: 76% 
   
   Testing accuracy:  71%
   
   Optimal threshold= 0.55
+ 
+2- Gender Classifcation
+
+  Training accuracy: 85%
+  
+  Testing accuracy: 83%
+  
+  Optimal threshold= 0.58
