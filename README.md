@@ -3,7 +3,7 @@
 <a href="https://hub.docker.com/r/mohamedgamin/digified"><img src="https://img.shields.io/docker/pulls/ultralytics/yolov5?logo=docker" alt="Docker Pulls"></a>
 
 ## Overview
-This is an Arabic name verification project where I used Character-Level LSTM for real and fake name classifcation. 
+This is an Arabic name verification project where Character-Level LSTM for real and fake name classifcation was used. 
 
 The project consists of the following parts:
 
@@ -14,4 +14,6 @@ The project consists of the following parts:
 3- Inferance
 
 4- Containerization
+
+## 1- Data Generation
 
