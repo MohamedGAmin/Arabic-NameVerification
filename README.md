@@ -119,8 +119,14 @@ docker pull mohamedgamin/digified
 docker run -p 5000:5000 mohamedgamin/digified
 ```
 ### How to run the webserver
-after running the docker image open any web browser and go to
+After running the docker image open any web browser and go to
 ```bash
 http://localhost:5000
 ```
+Then it will look like the follows
 
+<img width="567" alt="image" src="https://user-images.githubusercontent.com/54632431/206878177-161a1b37-8454-4133-9f48-9f69898f4de1.png">
+
+Type in the name as first, middle and last names arabic letters sperated by space and hit predict. 
+
+Then the output and the execution time will be shown
