@@ -42,6 +42,8 @@ The dataset after preprocessing that is used for training the model consists of:
 
 Total of 3848 fake and 3848 real names located in `generated_dataset/`
 
+During training the data splited between 80% training dataset and 20% validation dataset
+
 ## 2- Core Model
 
 The model used was LSTM for character level and below is the architecture of the model
@@ -70,3 +72,19 @@ _________________________________________________________________
 
 The model was used two times, one time to classify if the name is real or fake and other time to classify the gender of the name to make sure that name is following the basic structure of the full name 
 
+The weights of the model are located at `models/`
+
+### Model Accuracy and Optimal threshold
+
+The metric used was the accuracy for both models as the data is balanced between both classes.
+
+Youden's J statistic was used  to obtain the optimal probability threshold and this method gives equal weights to both false positives and false negatives.
+
+  `𝐽=𝑇𝑟𝑢𝑒𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑅𝑎𝑡𝑒+𝑇𝑟𝑢𝑒𝑁𝑒𝑔𝑎𝑡𝑖𝑣𝑒𝑅𝑎𝑡𝑒−1=𝑇𝑟𝑢𝑒𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑅𝑎𝑡𝑒−𝐹𝑎𝑙𝑠𝑒𝑃𝑜𝑠𝑖𝑡𝑖𝑣𝑒𝑅𝑎𝑡𝑒`
+1- Real and Fake name classifcation
+  
+  Training accuracy: 76% 
+  
+  Testing accuracy:  71%
+  
+  Optimal threshold= 0.55
