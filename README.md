@@ -99,5 +99,6 @@ Youden's J statistic was used  to obtain the optimal probability threshold and t
   Optimal threshold= 0.58
   
 ## 3- Interface
-Flask API was used to deploy the model on a simple web server. Using the saved models weights to create prediction and show the output for the user. 
+Flask API was used to deploy the model on a simple web server. Using the saved models weights to create prediction and show the output for the user and the execution time.
+<img width="655" alt="Screenshot 2022-12-11 at 2 29 09 AM" src="https://user-images.githubusercontent.com/54632431/206877672-54435dd2-4ea2-402b-bcf4-55b85d14c6f6.png">
 
