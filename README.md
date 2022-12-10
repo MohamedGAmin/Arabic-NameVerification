@@ -45,8 +45,8 @@ Total of 3848 fake and 3848 real names located in `generated_dataset/`
 ## 2- Core Model
 
 The model used was LSTM for character level and below is the architecture of the model
+
 ```bash
-Model: "sequential_27"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
 =================================================================
