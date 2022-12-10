@@ -38,7 +38,9 @@ The dataset after preprocessing that is used for training the model consists of:
 
 2- 1971 females and 1877 males real names
 
-Total of 3848 fake 3848 real names
+Total of 3848 fake 3848 real names located in `generated_dataset/`
+
+
 
 
 
