@@ -9,7 +9,7 @@ The name given should be first, middle and last names written in arabic letters 
 
 The project consists of the following parts:
 
-1- Data Generation[#part1]
+1- [Data Generation](#part1)
 
 2- Core Model
 
