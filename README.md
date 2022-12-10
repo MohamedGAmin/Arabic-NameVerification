@@ -97,3 +97,7 @@ Youden's J statistic was used  to obtain the optimal probability threshold and t
   Testing accuracy: 83%
   
   Optimal threshold= 0.58
+  
+## 3- Interface
+Flask API was used to deploy the model on a simple web server. Using the saved models weights to create prediction and show the output for the user. 
+
