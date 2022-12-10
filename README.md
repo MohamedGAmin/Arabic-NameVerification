@@ -16,4 +16,7 @@ The project consists of the following parts:
 4- Containerization
 
 ## 1- Data Generation
+The raw data located /dataset which contains real arabic names for males and females. It was challanging to find much open source arabic names datasets. 
+
+Some of the data was taken from this repo https://github.com/zakahmad/ArabicNameGenderFinder
 
