@@ -5,7 +5,7 @@
 ## Overview
 This is an Arabic name verification project where Character-Level LSTM for real and fake name classifcation was used. 
 
-The name given should be first, middle and last names written in arabic letters seprated by spaces. Then the model will detect if this name is a real name with high confidence, a real name with low confidence or a fake name.
+The name given should be first, middle and last names written in arabic letters seprated by spaces. Then the model will detect if this name is a real name with high confidence, a real name with low confidence or a fake name. The model also consider the the basic structure of the full name, which is middle and last name shouln't be a feminine name. So another gender classification model was used to make sure that the middle and the last names are masculine.
 
 The project consists of the following parts:
 
