@@ -118,4 +118,9 @@ To train the model use the below command, choose the number of epochs and choose
 docker pull mohamedgamin/digified
 docker run -p 5000:5000 mohamedgamin/digified
 ```
+### How to run the webserver
+after running the docker image open any web browser and go to
+```bash
+http://localhost:5000
+```
 
