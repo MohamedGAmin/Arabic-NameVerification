@@ -1,2 +1,1 @@
-# Digified-Task
-Name Verification 
+# Arabic Name Verification
