@@ -22,9 +22,12 @@ Some of the data was taken from this repository https://github.com/zakahmad/Arab
 
 ### Data preprocessing
 
-Three different ways were used to generate fake names out of the real names in the dataset located in `data_generation.py`
+Three different ways were used to generate fake names out of the real names in the dataset located in `data_generation.py`:
+
 1- Removing random letter
+
 2- Swap any random 2 letters with each other
+
 3- Repeat a random letter at a random position in the name.
 
 
