@@ -11,13 +11,13 @@ The project consists of the following parts:
 
 1- [Data Generation](#1--Data-Generation)
 
-2- Core Model
+2- [Core Model](#2--Core-Model)
 
-3- Inferance
+3- [Inferance](#3--Interface)
 
-4- Containerization
+4- [Containerization](#4--Containerization)
 
-5- How To
+5- [How To](#5--How-To)
 
 
 ## 1- Data Generation
@@ -106,10 +106,10 @@ Flask API was used to deploy the model on a simple web server. Using the saved m
 
 <img width="655" alt="Screenshot 2022-12-11 at 2 29 09 AM" src="https://user-images.githubusercontent.com/54632431/206877672-54435dd2-4ea2-402b-bcf4-55b85d14c6f6.png">
 
-## 4-Containerization
+## 4- Containerization
 Final step was to containerize the final application into a docker image so it can be tested anywhere. `docker-compose.yml` was used to build the docker image.
 
-## How-To
+## 5- How-To
 
 ### How to train
 To train the model use the below command, choose the number of epochs and choose between 'fake' or 'gender' mode to train the selected model
