@@ -111,9 +111,12 @@ Final step was to containerize the final application into a docker image so it c
 ### How to train
 To train the model use the below command, choose the number of epochs and choose between 'fake' or 'gender' mode to train the selected model
 ```bash
+!git clone https://github.com/MohamedGAmin/Arabic-NameVerification
+!pip install -r requirement.txt
 !python train.py --epochs 20 --mode fake
 ```
 ### How to pull and run the docker image
+To run the application through docker image
 ```bash
 docker pull mohamedgamin/digified
 docker run -p 5000:5000 mohamedgamin/digified
