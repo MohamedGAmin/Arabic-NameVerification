@@ -30,5 +30,15 @@ Three different ways were used to generate fake names out of the real names in t
 
 3- Repeat a random letter at a random position in the name.
 
+### Dataset
+
+The dataset after preprocessing that is used for training the model consists of:
+
+1- 1971 females and 1877 males fake names
+
+2- 1971 females and 1877 males real names
+
+Total of 3848 fake 3848 real names
+
 
 
