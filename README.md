@@ -113,3 +113,9 @@ To train the model use the below command, choose the number of epochs and choose
 ```bash
 !python train.py --epochs 20 --mode fake
 ```
+### How to pull and run the docker image
+```bash
+docker pull mohamedgamin/digified
+docker run -p 5000:5000 mohamedgamin/digified
+```
+
